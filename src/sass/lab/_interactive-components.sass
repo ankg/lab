@@ -354,6 +354,19 @@
       text-align: center
       // And finally, make the position labels a bit smaller than the title and other text
       font-size: 0.8em
+  &.vertical
+    .container
+      -mz-transform: rotate(270deg)
+      -webkit-transform: rotate(270deg)
+      transform: rotate(270deg)
+    .label
+      -mz-transform: rotate(90deg)
+      -webkit-transform: rotate(90deg)
+      transform: rotate(90deg)
+    .ui-slider-handle
+      -mz-transform: rotate(90deg)
+      -webkit-transform: rotate(90deg)
+      transform: rotate(90deg)  
 
 .textBoxBody
   font-family: inherit
