@@ -544,6 +544,9 @@ define(function() {
       type: {
         required: true
       },
+      orientation: {
+        defaultValue: "horizontal"
+      },
       min: {
         required: true
       },
