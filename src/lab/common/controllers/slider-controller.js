@@ -116,6 +116,8 @@ define(function () {
                 .append($container);
       // Each interactive component has to have class "component".
       $elem.addClass("component");
+      // Added class for slider orientaion
+      $elem.addClass(component.orientation);
 
       for (i = 0; i < labels.length; i++) {
         label = labels[i];
